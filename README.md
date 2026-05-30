@@ -24,12 +24,17 @@
 1. 安装依赖：
 ```bash
 pip install torch transformers datasets
+```
+
 2. 运行数据处理与验证：
 ```bash
 python data_process.py
+```
+
 3. 启动模型训练：
 ```bash
 python main_train.py
+```
 
 ## 🗺️ 后续计划 (Roadmap)
-- `🚀 Q2计划: 迁移至云端 4090D 算力，探索 Llama/Qwen 等开源大模型的 SFT (指令微调) 及 RAG (检索增强生成) 知识库系统搭建。
+- 🚀 **Q2计划**: 迁移至云端 4090D 算力，探索 Llama/Qwen 等开源大模型的 SFT (指令微调) 及 RAG (检索增强生成) 知识库系统搭建。
