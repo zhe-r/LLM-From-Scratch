@@ -20,7 +20,16 @@
 - `main_train.py`: 模型的端到端微型训练脚本（Teacher Forcing 机制）。
 - `inference.py`: 模型的自回归推理脚本，验证模型文本生成能力。
 
-##  快速开始 (Quick Start)
+## 🛠️ 快速开始 (Quick Start)
 1. 安装依赖：
 ```bash
 pip install torch transformers datasets
+2. 运行数据处理与验证：
+```bash
+python data_process.py
+3. 启动模型训练：
+```bash
+python main_train.py
+
+## 🗺️ 后续计划 (Roadmap)
+- `🚀 Q2计划: 迁移至云端 4090D 算力，探索 Llama/Qwen 等开源大模型的 SFT (指令微调) 及 RAG (检索增强生成) 知识库系统搭建。
